@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zongnan Li</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      padding: 40px 0;
+    }
+    header img {
+      border-radius: 50%;
+      width: 150px;
+      border: 4px solid white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin-top: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      color: #888;
+      font-size: 0.9em;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="myphoto.jpeg" alt="Portrait of Zongnan">
+  <h1>Zongnan Li</h1>
+  <p>Astronomer | Interstellar Medium | Galaxy Evolution</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>
+    I am a postdoctoral researcher at the National Astronomical Observatory of Japan (NAOJ), focusing on star formation,
+    the interstellar medium, and multiwavelength observations of nearby galaxies.
+    I previously studied black hole accretion and AGN feedback.
+  </p>
+</section>
+
+<section>
+  <h2>Research Interests</h2>
+  <ul>
+    <li>Star formation rate tracers (GALEX, WISE, ALMA)</li>
+    <li>ISM chemistry and molecular line diagnostics</li>
+    <li>Radio to X-ray AGN feedback</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Publications</h2>
+  <p>
+    View my publications on <a href="https://ui.adsabs.harvard.edu/">NASA ADS</a> or <a href="https://orcid.org/0000-0002-7172-6306">ORCID</a>.
+  </p>
+</section>
+
+<section>
+  <h2>CV</h2>
+  <p><a href="CV.pdf" target="_blank">Download my CV (PDF)</a></p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:zongnan.li@astro.nao.ac.jp">zongnan.li@astro.nao.ac.jp</a></p>
+</section>
+
+<footer>
+  &copy; <span id="year"></span> Zongnan Li
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
+
