@@ -1,28 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Research - Zongnan Li</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research by Zongnan Li on galactic nuclei, SMBH–galaxy co-evolution, the interstellar medium, and star formation.">
+  <title>Research | Zongnan Li</title><link rel="stylesheet" href="style.css">
 </head>
-<body class="subpage">
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="research.html">Research</a>
-      <a href="publications.html">Publications</a>
-      <a href="CV.pdf" target="_blank">CV</a>
-    </nav>
-    <main>
-  <h1>Research Interests</h1>
-  <ul>
-    <li>AGN feeding and feedback</li>
-	<li>Nearby galaxies, in particular, M31 (and local group galaxies), M81, and other nearby low-luminosity AGNs and LINERs</li>
-    <li>Multiphase interstellar medium (molecular gas, atomic gas, ionized gas, dust)</li>
-	<li>Photoionization modeling (CLOUDY, MAPPINGS, etc.)</li>
-	<li>Galaxy strucutre (formation and evolution of bars, spiral arms, etc)</li>
-	<li>Radio astronomy (JCMT, IRAM 30m, NOEMA, FAST, VLA, etc.)</li>
-	<li>Optical spectroscopy (esprcially IFU: CAHA/PPAK, CFHT/SITELLE, VLT/MUSE, etc.)</li>
-  </ul>
-</body>
-</html>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">ZL</span><span>Zongnan Li</span></a><nav aria-label="Primary navigation"><a href="index.html">Home</a><a href="about.html">About</a><a class="active" href="research.html">Research</a><a href="publications.html">Publications</a><a class="nav-cv" href="CV.pdf" target="_blank" rel="noopener">CV</a></nav></header>
+  <main id="content" class="page-shell">
+    <header class="page-intro"><p class="eyebrow">Research</p><h1>Connecting gas, stars, and black holes across galactic nuclei.</h1><p class="lede">I combine radio, submillimeter, infrared, optical, and X-ray observations to build a spatially resolved view of nearby galaxies.</p></header>
+
+    <section class="research-grid">
+      <article class="research-card"><p class="research-index">01</p><h2>Galactic nuclei</h2><p>Using M31, M81, and other nearby low-luminosity active galactic nuclei as laboratories for black hole feeding, feedback, and nuclear activity.</p><ul class="tag-list"><li>M31</li><li>M81</li><li>LINERs</li></ul></article>
+      <article class="research-card"><p class="research-index">02</p><h2>Multiphase gas</h2><p>Tracing molecular, atomic, ionized, and hot gas to understand the physical state, energy balance, and kinematics of the interstellar medium.</p><ul class="tag-list"><li>CO</li><li>H I</li><li>Ionized gas</li><li>Dust</li></ul></article>
+      <article class="research-card"><p class="research-index">03</p><h2>SMBH–galaxy co-evolution</h2><p>Studying how accretion and energetic feedback interact with nuclear star clusters, circumnuclear structures, and galaxy-scale environments.</p><ul class="tag-list"><li>Accretion</li><li>Feedback</li><li>Outflows</li></ul></article>
+      <article class="research-card"><p class="research-index">04</p><h2>Star formation</h2><p>Measuring molecular cloud properties and the connection between gas supply, star formation efficiency, and quenching in nearby disks.</p><ul class="tag-list"><li>Clouds</li><li>Quenching</li><li>Disk galaxies</li></ul></article>
+    </section>
+
+    <section class="methods section-rule">
+      <div><p class="section-kicker">Methods</p><h2>Observatories & analysis</h2></div>
+      <div class="methods-groups"><div><h3>Radio & submillimeter</h3><p>ALMA, MeerKAT, VLA, JCMT, IRAM 30m, NOEMA, Nobeyama, FAST</p></div><div><h3>Optical spectroscopy</h3><p>CFHT/SITELLE, CAHA/PPAK, WHT/WEAVE, VLT/MUSE</p></div><div><h3>Modeling & software</h3><p>CLOUDY, MAPPINGS, CASA, GILDAS, Starlink, pPXF, starlight</p></div></div>
+    </section>
+
+    <section class="proposals section-rule">
+      <div class="section-heading"><p class="section-kicker">Recent observing programs</p><h2>Selected 2025 proposals</h2></div>
+      <div class="proposal-list">
+        <article><span class="role">PI</span><div><h3>MeerKAT · 2.5 hours</h3><p>Mapping polarized synchrotron emission from the central region of M31</p></div></article>
+        <article><span class="role">PI</span><div><h3>ALMA · 23.5 hours</h3><p>Molecular gas in massive group-central disk galaxies and star formation quenching</p></div></article>
+        <article><span class="role">PI</span><div><h3>ALMA · 22.3 hours</h3><p>The molecular gas environment around the nuclear star cluster in M33</p></div></article>
+        <article><span class="role">PI</span><div><h3>JCMT · 26 hours</h3><p>CO(3–2) mapping of a peculiar ionized-gas feature in the M31 disk</p></div></article>
+        <article><span class="role">PI</span><div><h3>Nobeyama · 50 hours</h3><p>TIANGANG–Nobeyama: molecular gas in nearby Milky Way analogs</p></div></article>
+      </div>
+      <p class="section-action"><a class="button secondary" href="CV.pdf" target="_blank" rel="noopener">View all proposals in the CV</a></p>
+    </section>
+  </main>
+  <footer><p>© <span id="year"></span> Zongnan Li</p><p><a href="mailto:zongnanli42@gmail.com">zongnanli42@gmail.com</a> · <a href="https://orcid.org/0000-0002-7172-6306">ORCID</a></p></footer><script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body></html>

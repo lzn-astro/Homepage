@@ -1,115 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<meta name="description" content="Zongnan Li - Astronomer at KASI focusing on interstellar medium, star formation, and galaxy evolution.">
-	<meta name="keywords" content="Zongnan Li, Astronomy, Interstellar Medium, Galaxy Evolution, NAOJ, KASI, EACOA, M31, M81, Publications">
-	<meta name="author" content="Zongnan Li">
-	<link rel="canonical" href="https://lzn-astro.github.io/Homepage/">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Zongnan Li</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      font-family: sans-serif;
-      display: flex;
-      flex-direction: column;
-    }
-    body {
-/*      background: url("background.jpeg") center center / cover no-repeat fixed;*/
-      color: #333;
-    }
-    .wrapper {
-      flex: 1;
-      position: relative;
-      z-index: 0;
-    }
-    .overlay {
-      position: fixed;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background-color: rgba(255, 255, 255, 0.2);
-      z-index: -1;
-    }
-    header {
-      background-color: rgba(176, 196, 222, 1);
-      text-align: center;
-      padding: 20px 20px;
-/*      backdrop-filter: blur(4px);*/
-    }
-    header img {
-      border-radius: 50%;
-      width: 150px;
-      border: 4px solid white;
-      box-shadow: 0 0 10px rgba(0,0,0,0);
-    }
-    nav {
-      background-color: rgba(135, 206, 235, 0);
-      text-align: center;
-      padding: 20px 0;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 50px;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    main {
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-      background-color: rgba(255, 255, 255, 0);
-      border-radius: 8px;
-      margin-top: 20px;
-	  color: white;
-    }
-    footer {
-      text-align: center;
-      color: #888;
-      font-size: 0.9em;
-      padding: 15px;
-      background-color: rgba(241, 241, 241, 0.5);
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zongnan Li is an EACOA Fellow at KASI studying galactic nuclei, the multiphase interstellar medium, and star formation.">
+  <meta name="keywords" content="Zongnan Li, astronomy, KASI, EACOA, galactic nuclei, interstellar medium, M31, M81">
+  <meta name="author" content="Zongnan Li">
+  <link rel="canonical" href="https://lzn-astro.github.io/Homepage/">
+  <title>Zongnan Li | Astronomer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- 半透明遮罩层 -->
-  <div class="overlay"></div>
-
-  <div class="wrapper">
-    <header>
-      <img src="avatar.png" alt="Portrait of Zongnan Li">
-      <h1>Zongnan Li (李宗男)</h1>
-      <p>Astronomer | Interstellar Medium | Galaxy Evolution</p>
-    </header>
-
-    <nav>
-      <a href="index.html">Home</a>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Zongnan Li, home">
+      <span class="brand-mark">ZL</span><span>Zongnan Li</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a class="active" href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="research.html">Research</a>
       <a href="publications.html">Publications</a>
-      <a href="CV.pdf" target="_blank">CV</a>
+      <a class="nav-cv" href="CV.pdf" target="_blank" rel="noopener">CV</a>
     </nav>
+  </header>
 
-    <main>
-      <h2>Welcome</h2>
-      <p>Welcome to my academic homepage. 
-		  
-		  I'm currently an East Asian Core Observatories Association (<a href="https://www.eacoa.net/fellowship.php">EACOA</a>) Fellow at the Korea Astronomy and Space Science Institute (<a href="https://www.kasi.re.kr">KASI</a>). My work focuses on supermassive black hole accretion and feedback, with a particular interest in the multi-phase interstellar medium in nearby galaxies. Multi-wavelength observations targeting these nearest central engines hold the key to unravel the mysterious nature of the feeding and feedback of the SMBH, and thus open a door for our understanding of galaxy evolution. M31 is my favorite galaxy. It is the closest massive spiral, and is regarded as the sister galaxy to our Milky Way, yet there are many fascinating puzzles buried in its beautiful spirals, waiting to be explored. </p>
-    </main>
-  </div>
+  <main id="content">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">EACOA Fellow · KASI · Daejeon</p>
+        <h1>Exploring how nearby galactic nuclei shape their environments.</h1>
+        <p class="lede">I am Zongnan Li, an astronomer studying galactic nuclei, supermassive black hole–galaxy co-evolution, the multiphase interstellar medium, and star formation.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="research.html">Explore my research</a>
+          <a class="button secondary" href="publications.html">View publications</a>
+        </div>
+      </div>
+      <figure class="portrait-wrap">
+        <img src="avatar.png" alt="Portrait of Zongnan Li" width="420" height="420">
+        <figcaption>East Asian Core Observatories Association Fellow at the Korea Astronomy and Space Science Institute</figcaption>
+      </figure>
+    </section>
+
+    <section class="intro section-rule">
+      <div>
+        <p class="section-kicker">Current work</p>
+        <h2>The nearest galaxies as detailed laboratories</h2>
+      </div>
+      <div class="intro-copy">
+        <p>My research uses spatially resolved, multi-wavelength observations to understand the feeding and feedback of supermassive black holes and their connection to galaxy evolution.</p>
+        <p>M31—our nearest massive spiral neighbor—is a central laboratory in my work, alongside M81 and other nearby low-luminosity active galactic nuclei.</p>
+      </div>
+    </section>
+
+    <section class="highlights" aria-labelledby="highlights-title">
+      <div class="section-heading">
+        <p class="section-kicker">At a glance</p>
+        <h2 id="highlights-title">Research highlights</h2>
+      </div>
+      <div class="card-grid">
+        <article class="card accent-card">
+          <p class="card-number">18</p>
+          <h3>Peer-reviewed papers</h3>
+          <p>Seven lead-author and one corresponding-author publication.</p>
+        </article>
+        <article class="card">
+          <p class="card-label">Latest paper · 2026</p>
+          <h3>Testing photoionization in M31</h3>
+          <p>CFHT/SITELLE observations rule out conventional photoionization models in the closest LINER.</p>
+        </article>
+        <article class="card">
+          <p class="card-label">Observing leadership</p>
+          <h3>From radio to optical IFU</h3>
+          <p>PI and Co-PI programs with MeerKAT, ALMA, JCMT, Nobeyama, VLA, CFHT/SITELLE, and WEAVE.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="feature-image" role="img" aria-label="The Andromeda Galaxy against a star field"></div>
+      <div class="feature-copy">
+        <p class="section-kicker">A favorite laboratory</p>
+        <h2>Andromeda, in exquisite detail</h2>
+        <p>As the closest massive spiral and a sister galaxy to the Milky Way, M31 lets us examine molecular, atomic, ionized, and hot gas across scales that are inaccessible in more distant systems.</p>
+        <a class="text-link" href="publications.html">Read the M31 publications <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    &copy; <span id="year"></span> Zongnan Li | Contact: <a href="mailto:zongnanli42@gmail.com">zongnanli42@gmail.com</a>
+    <p>© <span id="year"></span> Zongnan Li</p>
+    <p><a href="mailto:zongnanli42@gmail.com">zongnanli42@gmail.com</a> · <a href="https://orcid.org/0000-0002-7172-6306">ORCID</a></p>
   </footer>
-<div class="background-half"></div>
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
